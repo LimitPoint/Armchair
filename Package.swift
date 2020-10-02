@@ -24,7 +24,8 @@ let package = Package(
     targets: [
         .target(
             name: "Armchair",
-            path: "./Source"
+            path: "./Source",
+            publicHeadersPath: "./Source/Armchair.h"
         )
     ]
     
